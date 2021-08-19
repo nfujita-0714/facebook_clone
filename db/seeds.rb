@@ -16,8 +16,8 @@ posts = [
 
 posts.each { |post| Post.create!(content: post) }
 
-User.create!(name: 'フリーエンジニア君', email: 'engineer2@email.com', image: 'user_1.png')
-User.create!(name: 'フリーデザイナー君', email: 'designer@email.com', image: 'user_2.png')
-User.create!(name: 'アルパカさん', email: 'alpaca@email.com', image: 'user_3.png')
-User.create!(name: 'ゴリラくん', email: 'golilla@email.com', image: 'user_4.png')
-User.create!(name: 'セレブエンジニアさん', email: 'celeb@email.com', image: 'user_5.png')
+User.create!(name: 'フリーエンジニア君', email: 'engineer2@email.com', image: 'user_1.png', password: 'foobar')
+User.create!(name: 'フリーデザイナー君', email: 'designer@email.com', image: 'user_2.png', password: 'foobar')
+User.create!(name: 'アルパカさん', email: 'alpaca@email.com', image: 'user_3.png', password: 'foobar')
+User.create!(name: 'ゴリラくん', email: 'golilla@email.com', image: 'user_4.png', password: 'foobar')
+User.create!(name: 'セレブエンジニアさん', email: 'celeb@email.com', image: 'user_5.png', password: 'foobar')
