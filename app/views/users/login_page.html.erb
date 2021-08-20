@@ -8,10 +8,10 @@
         <% end %>
         <%= form_tag login_path do %>
           <p>メールアドレス</p>
-          <input name="email" value ="<%= @email %>">
+          <input name="email" value ="<%= @email %>"<input class="form-control">
           <p>パスワード</p>
-          <input type="password" name="password" value="<%= @password %>">
-          <input type="submit" value="ログイン">
+          <input type="password" name="password" value="<%= @password %>"<input class="form-control">
+          <input type="submit" value="ログイン" class="btn btn-primary">
         <% end %>
       </div>
     </div>
